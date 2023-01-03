@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+h1#score {
+    position: absolute;
+    width: 100vw;
+    color: white;
+    margin-top: 20vh;
+    z-index: 10;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1#tip {
+    position: absolute;
+    width: 100vw;
+    color: white;
+    margin-top: 30vh;
+    font-size: 2vw;
+    z-index: 10;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1#deadtext {
+    position: absolute;
+    width: 100vw;
+    color: WHITE;
+    opacity: 1;
+    margin-top: 40vh ;
+    font-size: 6vw;
+    z-index: 10;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+h1#restarttext {
+    position: absolute;
+    width: 100vw;
+    color: WHITE;
+    opacity: 1;
+    margin-top: 70vh ;
+    font-size: 3vw;
+    z-index: 10;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.wiper {
+    position: absolute;
+    z-index: 9;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    opacity: 0.5;
+    visibility: hidden;
+    backdrop-filter: blur(10px);
+}
+
+p#credits {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    z-index: 5;
+    font-family: 'Courier New', Courier, monospace;
+}
